@@ -14,4 +14,4 @@ double dotBx = Convert.ToDouble(Console.ReadLine());
 double dotBy = Convert.ToDouble(Console.ReadLine());
 
 double dotC = Math.Sqrt(Math.Pow((dotAx) - (dotBx), 2) + Math.Pow((dotAy) - (dotBy), 2));
-Console.WriteLine(dotC);
+Console.WriteLine(Math.Round(dotC, 2));
