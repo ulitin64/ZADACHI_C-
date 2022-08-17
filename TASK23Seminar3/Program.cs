@@ -12,6 +12,6 @@ double cNum = 1;
 for (int i = 1; i <= nNumber; i++)
 {
     f = f * i;
-    cNum = cNum + 1 / f;
+    cNum = cNum + (1 / f);
     Console.Write($"{Math.Round(cNum, 2)}" );
 }
