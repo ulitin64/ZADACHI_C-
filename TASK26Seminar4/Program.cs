@@ -11,7 +11,7 @@ int number = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 int howMuchIsTheDigits(int number)
 {
     int Counter = 0;
-    while (number % 10 != 0)
+    while (number!= 0)
     {
         number = number / 10;
         Counter++;
