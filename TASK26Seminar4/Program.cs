@@ -8,7 +8,7 @@
 Console.WriteLine("Введите число: ");
 int number = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 
-int howMuchIsTheDigits(int number)
+int HowMuchIsTheDigits(int number)
 {
     int Counter = 0;
     while (number!= 0)
@@ -19,4 +19,4 @@ int howMuchIsTheDigits(int number)
     return Counter;
 }
 
-Console.WriteLine($"Количетсво цифр в числе {number} = {howMuchIsTheDigits(number)}");
+Console.WriteLine($"Количетсво цифр в числе {number} = {HowMuchIsTheDigits(number)}");
