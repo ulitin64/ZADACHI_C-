@@ -6,6 +6,7 @@
 */
 
 int[] numbers = new int[4];
+Console.WriteLine("Массив состоит из: ");
 
 void FillArray(int[] array, int min, int max)
 {
